@@ -1,0 +1,9 @@
+options = UiAutomator2Options()
+options.platform_name = "Android"
+options.automation_name = "uiautomator2"
+options.device_name = "sdk_gphone64_x86_64"
+options.udid = "emulator-5554"
+options.app_package = "org.simple.clinic.staging"
+options.app_activity = "org.simple.clinic.main.TheActivity"
+options.language = "en"
+options.locale = "US"
